@@ -269,8 +269,8 @@ h6 {
   right: 0;
   top: 50px;
   max-width: 400px;
-  -webkit-animation: donut 0.9s  infinite alternate ease-in;
-          animation: donut 0.9s  infinite alternate ease-in;
+  -webkit-animation: donut 0.7s  infinite alternate ease-in;
+          animation: donut 0.7s  infinite alternate ease-in;
 }
 
 @-webkit-keyframes donut {
@@ -454,10 +454,6 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   background: #A3DCF3;
-}
-
-.menu__link:hover {
-  background: none;
 }
 
 .search {
@@ -1038,6 +1034,10 @@ body.block {
   .menu__link {
     font-size: 24px;
     letter-spacing: 3px;
+  }
+
+  .menu__link:hover {
+    background: none;
   }
 
   .about__row {

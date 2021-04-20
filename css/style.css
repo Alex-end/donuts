@@ -1125,9 +1125,9 @@ body.block {
 
 @media screen and (max-width: 560px) {
   .header__img {
-    max-width: 60px;
+    max-width: 70px;
     right: 5%;
-    bottom: -7%;
+    bottom: -8%;
   }
 }
 
@@ -1145,8 +1145,8 @@ body.block {
 
 @media screen and (max-width: 480px) {
   .header__img {
-    right: -8%;
-    bottom: -3%;
+    right: 1%;
+    bottom: -9%;
   }
 
   .menu__list li {
@@ -1160,10 +1160,6 @@ body.block {
 
   .search-active .search__field {
     top: 50px;
-  }
-
-  .about {
-    padding: 0px 0 24px 0;
   }
 
   .about__inner {

@@ -216,7 +216,7 @@ h6 {
 .header__img {
   position: absolute;
   bottom: -10%;
-  left: 10%;
+  right: 10%;
   max-width: 100px;
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
@@ -266,9 +266,9 @@ h6 {
 
 .header__image {
   position: absolute;
-  right: -150px;
+  right: 0;
   top: 50px;
-  max-width: 450px;
+  max-width: 400px;
   -webkit-animation: donut 0.9s  infinite alternate ease-in;
           animation: donut 0.9s  infinite alternate ease-in;
 }
@@ -846,12 +846,6 @@ body.block {
   overflow: hidden;
 }
 
-@media screen and (max-width: 1400px) {
-  .header__image {
-    right: -50px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .header__title {
     font-size: 76px;
@@ -861,12 +855,6 @@ body.block {
   .header__text {
     font-size: 18px;
     line-height: 28px;
-  }
-
-  .header__image {
-    max-width: 450px;
-    top: 50px;
-    right: 0;
   }
 }
 
@@ -971,7 +959,7 @@ body.block {
   }
 
   .header__img {
-    left: 5%;
+    right: 5%;
     bottom: -13%;
   }
 
@@ -1138,7 +1126,7 @@ body.block {
 @media screen and (max-width: 560px) {
   .header__img {
     max-width: 60px;
-    left: 5%;
+    right: 5%;
     bottom: -7%;
   }
 }
@@ -1157,7 +1145,7 @@ body.block {
 
 @media screen and (max-width: 480px) {
   .header__img {
-    left: -8%;
+    right: -8%;
     bottom: -3%;
   }
 
@@ -1188,6 +1176,12 @@ body.block {
 
   .choice {
     padding: 0 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tab__content--active {
+    max-width: 260px;
   }
 }
 
